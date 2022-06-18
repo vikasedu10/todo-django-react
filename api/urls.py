@@ -3,4 +3,5 @@ from api import views
 
 urlpatterns = [
     path('', views.home, name="home"),
+    path('notes/', views.getNotes, name="notes"),
 ]
