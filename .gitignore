@@ -43,4 +43,3 @@ tmp_email/
 .envrc
 .tool-versions
 
-db.sqlite3
