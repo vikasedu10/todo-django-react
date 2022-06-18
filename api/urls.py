@@ -3,5 +3,6 @@ from api import views
 
 urlpatterns = [
     path('', views.home, name="home"),
-    path('notes/', views.getNotes, name="notes"),
+    path('api/notes/', views.getNotes, name="notes"),
+    path('api/notes/<str:pk>/', views.getNote, name="note"),
 ]
